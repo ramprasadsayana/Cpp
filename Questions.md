@@ -1,8 +1,15 @@
-  **Trees** 
+   **Trees**
+  
   **DataStructures**
-  **STL**
+  
+   **STL**
+   
   **Strings**
+  
   **SmartPointers**
+  
    **Pointers**
+   
   **OOPS**
+  
   **Thread**
