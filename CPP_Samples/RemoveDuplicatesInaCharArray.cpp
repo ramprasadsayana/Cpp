@@ -1,0 +1,44 @@
+// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+
+// C++ program to multiply two numbers represented 
+// as strings. 
+
+#include <vector>
+#include <string> 
+using namespace std;
+
+char* RemoveDuplicate(char str[], int n)
+{
+	// Used as index in the modified string 
+	int index = 0;
+
+	// Traverse through all characters 
+	for (int i = 0; i < n; i++) {
+
+		// Check if str[i] is present before it   
+		int j;
+		for (j = 0; j < i; j++)
+			if (str[i] == str[j])
+				break;
+
+		// If not present, then add it to 
+		// result. 
+		if (j == i)
+			str[index++] = str[i];
+	}
+
+	return str;
+}
+
+// Driver code 
+int main()
+{
+	char str[] = "This is a test string";
+	int n = sizeof(str) / sizeof(str[0]);
+	cout << RemoveDuplicate(str, n);
+	return 0;
+}
