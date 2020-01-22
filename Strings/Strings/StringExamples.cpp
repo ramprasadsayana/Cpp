@@ -6,8 +6,8 @@ using namespace std;
 
 
 /*Run Length Encoding
-Given an input string, write a function that returns the Run Length Encoded string for the ineamput string.
-For example, if the input string is ìwwwwaaadexxxxxxî, then the function should return ìw4a3d1e1x6î.*/
+Given an input string, write a function that returns the Run Length Encoded string for the input string.
+For example, if the input string is ‚Äúwwwwaaadexxxxxx‚Äù, then the function should return ‚Äúw4a3d1e1x6‚Äù.*/
 
 string RunLengthEncoding(string inStr)
 {
