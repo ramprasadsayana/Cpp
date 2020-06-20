@@ -1,2 +1,3 @@
-This is from master branch 
-This is from master branch
+This is from master branch 1st line
+This is from master branch 2nd line
+This is from master branch 3rd line 
